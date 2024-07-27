@@ -1,0 +1,207 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  .container-fluid {
+    margin: 6px;
+  }
+  
+  .navbar-nav {
+    margin-left: 26px;
+  }
+  
+  .banner {
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh; 
+    background-image: url("./urbanic_media/img-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  @media (max-width: 1200px) {
+    .banner {
+      height: 80vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: 60vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      height: 50vh;
+    }
+  }
+  
+    
+  .img-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+  }
+  
+  .row > .col {
+    padding: 0 15px;
+    flex: 1 0 21%; 
+    box-sizing: border-box;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .row > .col {
+      flex: 1 0 30%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .row > .col {
+      flex: 1 0 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row > .col {
+      flex: 1 0 100%;
+    }
+  }
+    
+  .newin {
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    background-image: url("./urbanic_media/new in.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .newin {
+        height: 600px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .newin {
+        height: 400px; 
+    }
+}
+
+  
+.bestseller {
+  margin-top: 50px;
+  width: 100%;
+  height: 800px;
+  background-image: url("./urbanic_media/img-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1200px) {
+  .bestseller {
+    height: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  .bestseller {
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bestseller {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bestseller {
+    height: 300px;
+  }
+}
+  .video video {
+    width: 100%;
+    height: 100%;
+  }
+  footer {
+    font-size: 0.7rem; 
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .list-unstyled {
+    padding-left: 0;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+footer .col-md-3 h5 {
+    margin-bottom: 1rem;
+    font-size: 1rem; 
+}
+
+footer .fab {
+  font-size: 2rem;
+}
+
+footer img {
+    height: 30px;
+}
+
+footer .logo img {
+    height: 50px; 
+}
+
+footer .mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer .container > .row {
+    margin-bottom: 20px;
+}
+
+footer .app-icons img {
+    height: 35px; 
+    margin: 0 10px; 
+}
+
